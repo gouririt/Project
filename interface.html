@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="https://sraap.in/index_files/sr-university-logo_round.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.k{padding-left:50px;
+  padding-right:50px;
+  }
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; 
+  background-color:#faebd7;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbutton{
+  background-color: black;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+background-color: Yellow;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+li a:hover {
+  background-color: black;
+}
+.logout-link:hover {
+    background-color:Yellow;
+  }
+body{
+  background-attachment:fixed;
+  background-size: cover;
+  }
+#myUL li a:hover:not(.header) 
+{
+  background-color: #eee;
+}
+ul {
+  list-style-type: none;
+  margin:-10;
+  padding:-10;
+  overflow: hidden;
+  background-color:Gray;
+}
+dl {
+  list-style-type: none;
+  margin:-10;
+  padding:-10;
+  overflow: hidden;
+  background-color:#333;
+}
+li a:hover {
+  background-color: black;
+}
+.logout-link:hover {
+    background-color:Yellow;
+  }
+.container {
+    display: flex; 
+   justify-content: space-between;
+  }
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid white;
+  padding: 10px;
+color:white;
+}
+</style>
+</head>
+<body>
+ <dl>
+<div class="container">
+    <h1 class="center ">SR UNIVERSITY</h1>
+</dl>
+    <ul>
+        <li><a href="#">Home +</a></li>
+<li class="dropdown"><a class="dropbutton" href="#Academic Details">Academic Details +</a>
+<div class="dropdown-content">
+<a href="#">View Academic Regulations</a>
+<a href="#">View Academic Calendar</a>
+<a href="#">View Syllabus</a>
+<a href="#">View Master TT</a>
+<a href="#">List of Hoildays | Working Days</a>
+<a href="#">View Circulars</a>
+</div>
+</li>
+<li class="dropdown"><a class="dropbutton" href="#Profile">Profile +</a>
+<div class="dropdown-content">
+<a href="#">View Profile</a>
+<a href="#">Update Profile</a>
+<a href="#">Uplode Aadhaar</a>
+<a href="#">Uplode Signature</a>
+<a href="#">Exit Survey</a>
+<a href="#">Exit Survey Report</a>
+</div>
+</li>
+        <li class="dropdown"><a class="dropbutton" href="#Profile">Student Time Tables +</a>
+        <div class="dropdown-content">
+            <a href="2-CSE-A.HTML"><center>2-CSE-A</center></a>
+            <a href="2-CSE-B.HTML"><center>2-CSE-B</center></a>
+            <a href="2-CSE-C.HTML"><center>2-CSE-C</center></a>
+            <a href="2-CSE-D.HTML"><center>2-CSE-D</center></a>
+            <a href="2-CSE-E.HTML"><center>2-CSE-E</center></a>
+            <a href="2-CSE-F.HTML"><center>2-CSE-F</center></a>
+            <a href="2-CSE-G.HTML"><center>2-CSE-G</center></a>
+            <a href="2-CSE-H.HTML"><center>2-CSE-H</center></a>
+            <a href="2-CSE-I.HTML"><center>2-CSE-I</center></a>
+            <a href="2-CSE-J.HTML"><center>2-CSE-J</center></a>
+            <a href="2-CSE-K.HTML"><center>2-CSE-K</center></a>
+            <a href="2-CSE-L.HTML"><center>2-CSE-L</center></a>
+            <a href="2-CSE-M.HTML"><center>2-CSE-M</center></a>
+            <a href="2-CSE-N.HTML"><center>2-CSE-N</center></a>
+            <a href="2-CSE-AIML-A.HTML"><center>2-CSE-AIML-A</center></a>
+            <a href="2-CSE-AIML-B.HTML"><center>2-CSE-AIML-B</center></a>
+            <a href="2-CSE-AIML-C.HTML"><center>2-CSE-AIML-C</center></a>
+            <a href="2-CSE-AIML-D.HTML"><center>2-CSE-AIML-D</center></a>
+            <a href="2-CSE-AIML-E.HTML"><center>2-CSE-AIML-E</center></a>
+            <a href="2-CSE-DS&CS.HTML"><center>2-CSE-DS&CS</center></a>          
+        </div>
+        </li>
+<li class="dropdown"><a class="dropbutton" href="#Attendence">Attendence +</a>
+<div class="dropdown-content">
+<a href="#">Day Wise Report</a>
+<a href="#">Month Wise Report</a>
+<a href="#">Subject Wise Report</a>
+</div>
+</li>
+<li><a href="#">Fee Payments</a></li>
+<li class="dropdown"><a class="dropbutton" href="#Internals">Internals +</a>
+<div class="dropdown-content">
+<a href="#">View Internal Marks(T&P)</a>
+</div>
+</li>
+
+<li class="dropdown"><a class="dropbutton" href="#Feedback">Feedback +</a>
+<div class="dropdown-content">
+<a href="#">Submit Feedback</a>
+</div>
+</li>
+        <li><a href="index.html">Logout +</a></li>
+    </ul>
+
+<ul id="myUL">
+</div>
+<script>
+  function myFunction() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myUL");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+          } else {
+              li[i].style.display = "none";
+          }
+      }
+  }
+  </script>
+</body>
+</html>
